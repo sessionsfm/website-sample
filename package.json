@@ -1,0 +1,19 @@
+{
+  "name": "website-sample",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sessionsfm/website-sample.git"
+  },
+  "author": "Donavon West <github@donavon.com> (https://donavon.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sessionsfm/website-sample/issues"
+  },
+  "homepage": "https://github.com/sessionsfm/website-sample#readme"
+}
