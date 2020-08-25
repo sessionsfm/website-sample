@@ -51,7 +51,9 @@ As you can see, we use CSS Modules for styling.
 
 Although not shown here, we also use custom React Hooks where applicable.
 
-For peer-to-peer video conferencing, we use AWS Chime.
+The app uses AWS Chime for Zoom-like in-browser peer-to-peer video conferencing. We intend to open source our React wrapper around the chime JavaScript API.
+
+![P2P video conferencing](https://pbs.twimg.com/media/EdYFRoAXkAIPgb4?format=png&name=large)
 
 ### Lambda (i.e. back-end)
 
