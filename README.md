@@ -1,6 +1,6 @@
 # Sessions FM sample website
 
-![image](https://user-images.githubusercontent.com/887639/90258175-27681200-de16-11ea-991a-850d33e520a7.png)
+![image](img/sessions-sample.png)
 
 This document will serve as a sample as to how the Sessions FM app (i.e. the website) is layed out.
 
@@ -9,6 +9,10 @@ This document will serve as a sample as to how the Sessions FM app (i.e. the web
 The code is a React application running on Netlify with serverless functions (i.e. lambda). The source is in `/src/client` with the lambda source in `/src/lambda`.
 
 All code is written in TypeScript.
+
+Here is a high-level overview.
+
+![tech zstack](img/sessions-stack.png)
 
 ### Client (i.e. front-end)
 
@@ -53,7 +57,7 @@ Although not shown here, we also use custom React Hooks where applicable.
 
 The app uses AWS Chime for Zoom-like in-browser peer-to-peer video conferencing. We intend to open source our React wrapper around the chime JavaScript API.
 
-![P2P video conferencing](https://pbs.twimg.com/media/EdYFRoAXkAIPgb4?format=png&name=large)
+![P2P video conferencing](img/chime-sample.png)
 
 ### Lambda (i.e. back-end)
 
