@@ -84,6 +84,40 @@ export const fetchDocument = async <T = any>({
 };
 ```
 
+## Style Guide
+
+This is a serve as a quick style guide to how we code at Sessions FM. We do this to ensure a consistant coding style throughout the application.
+
+### Variables
+
+Use `const` where possible. If you use a `let`, be prepared to defend it in the PR.
+
+Use informative variable names. Boolean variables should start with "is", "has", etc.
+
+### Function components
+
+We use React "function components" with custom hooks. Class components, HOCs, and render props are dead to us.
+
+### Semi-colons please
+
+You knew we'd get there eventually. Use semi-colons and 2 spaces for tabs. But don't fret — we use Prettier for effortless formatting.
+
+### Named exports
+
+We strive to use named function exports where practical. i.e. No `export default Foo`.
+
 ## Interested in joining the team?
 
 We're always looking for good coders to help out. If you're interested, contact [Ross Freeman](mailto:ross@sessions.fm) to find out more.
+
+### Code Challange
+
+You will be asked to take the following coding challenge. It's a basic ~~Hangman~~ HangPERSON app uing **TypeScript** and **React**.
+
+You can [take the coding challenge](https://codesandbox.io/s/hangman-860wk) which is hosted on CodeSandbox (an online IDE).
+
+We know these things are awful and that you have better things to do with your time than to code for free, so we've designed the challenge to take no more than an hour or two. But take as much or as little time as you'd like. Most importantly, have fun!
+
+<p>
+<img src="https://860wk.csb.app/img/animated.gif" width="308" height="347" alt="hangman"/>
+</p>
