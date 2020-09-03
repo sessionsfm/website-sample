@@ -118,7 +118,7 @@ We're always looking for good coders to help out. If you're interested, contact 
 
 ### Code Challange
 
-You will be asked to take the following coding challenge. It's a basic ~~Hangman~~ HangPERSON app uing **TypeScript** and **React**.
+You will be asked to take the following coding challenge. It's a basic ~~Hangman~~ HangPERSON app using **TypeScript** and **React**.
 
 You can [take the coding challenge](https://codesandbox.io/s/hangman-860wk) which is hosted on CodeSandbox (an online IDE).
 
